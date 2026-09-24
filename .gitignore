@@ -1,0 +1,13 @@
+data/
+dumps/
+*.csv
+*.zst
+*.log
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+.vscode/
+.idea/
