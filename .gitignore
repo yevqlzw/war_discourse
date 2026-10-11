@@ -1,13 +1,21 @@
-data/
-dumps/
-*.csv
-*.zst
-*.log
+# raw and generated data (large, rebuilt by the scripts)
+output/
+data/*
+!data/reactions/
+data/reactions/*
 
+# keep the hand-labelled samples and the final summaries
+!data/reactions/gold_sample.csv
+!data/reactions/train_sample.csv
+!data/reactions/train_sample2.csv
+!data/reactions/summary_by_period.csv
+!data/reactions/summary_by_month.csv
+
+# models downloaded from Colab
+model_ft*/
+
+# python / IDE
 __pycache__/
 *.pyc
 .venv/
-venv/
-
-.vscode/
 .idea/
