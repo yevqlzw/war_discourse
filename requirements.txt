@@ -1,21 +1,26 @@
-# === Основні для EDA ===
+# === Core (EDA) ===
 pandas>=1.5.0
 numpy>=1.21.0
 matplotlib>=3.5.0
 seaborn>=0.12.0
 
-# === Для парсингу .zst ===
+# === Parsing .zst dumps and filtering ===
 zstandard>=0.20.0
 orjson>=3.9.0
 tqdm>=4.65.0
 
-# === Для sentiment ===
+# === Sentiment ===
 vaderSentiment>=3.3.2
 
-# === Для Jupyter ===
+# === Reaction model (reaction_finetune_colab.ipynb, runs in Google Colab;
+#     Colab already has these, install locally only to run it on your machine) ===
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+scikit-learn>=1.2.0
+
+# === Jupyter ===
 jupyter>=1.0.0
 notebook>=6.5.0
 ipython>=8.0.0
-
-# === Опційно (для текстового аналізу) ===
-scikit-learn>=1.2.0
