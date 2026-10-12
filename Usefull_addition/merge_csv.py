@@ -1,8 +1,8 @@
 from pathlib import Path
 import shutil
 
-file1 = Path(r"D:\\Desktop\\Computational Social Science\\Project\\reddit_clean.csv")
-file2 = Path(r"D:\\Desktop\\Computational Social Science\\Project\\reddit_clean_2.csv")
+file1 = Path(r"D:\\Desktop\\Computational Social Science\\Project\\Week_1\\data\\reddit_ukraine_support.csv")
+file2 = Path(r"D:\\Desktop\\Computational Social Science\\Project\\data_processed.csv")
 
 output = Path(r"D:\\Desktop\\Computational Social Science\\Project\\01_2022.csv")
 
