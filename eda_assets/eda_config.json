@@ -1,0 +1,694 @@
+{
+ "about": "Settings and reference data for eda.ipynb. Edit here, not in the notebook.",
+ "data": {
+  "csv_name": "reddit_ukraine_support.csv",
+  "search_dirs": [
+   "Data_parsing/data",
+   "data",
+   "../Data_parsing/data",
+   "../data"
+  ],
+  "cache_name": "eda_cache.pkl",
+  "prep_version": 5,
+  "chunk_rows": 200000,
+  "text_sample_per_period": 60000,
+  "invasion_date": "2022-02-24"
+ },
+ "colors": {
+  "blue": "#2a78d6",
+  "orange": "#eb6834",
+  "aqua": "#1baf7a",
+  "yellow": "#eda100",
+  "magenta": "#e87ba4",
+  "green": "#008300",
+  "violet": "#6250d6",
+  "red": "#e34948",
+  "pink": "#d55181",
+  "pink_light": "#f6d3e1",
+  "blue_light": "#cde2fb",
+  "ink": "#0b0b0b",
+  "ink2": "#52514e",
+  "muted": "#898781",
+  "grid": "#e1e0d9",
+  "axis": "#c3c2b7",
+  "surface": "#fcfcfb",
+  "context": "#cfcdc5",
+  "other": "#b3b1a8",
+  "year2019": "#757369",
+  "neutral": "#dcdbd5",
+  "map_empty": "#e9e7e1",
+  "pink_soft": "#e87ba4"
+ },
+ "categorical_order": [
+  "blue",
+  "orange",
+  "aqua",
+  "yellow",
+  "magenta",
+  "green",
+  "violet",
+  "red"
+ ],
+ "ramps": {
+  "seq": [
+   "#f4f3ef",
+   "#cde2fb",
+   "#86b6ef",
+   "#3987e5",
+   "#1c5cab",
+   "#0d366b"
+  ],
+  "div": [
+   "#7a2148",
+   "#c2477a",
+   "#eea4c1",
+   "#f0efec",
+   "#9ec5f4",
+   "#2a78d6",
+   "#184f95"
+  ],
+  "pink": [
+   "#f6f1f3",
+   "#f6d3e1",
+   "#eea4c1",
+   "#e0719c",
+   "#c2477a",
+   "#8f2d56",
+   "#5c1a37"
+  ],
+  "green": [
+   "#f2f4f0",
+   "#d3ead0",
+   "#9fd39a",
+   "#5cb357",
+   "#2a8f2a",
+   "#0d6b12",
+   "#06450b"
+  ],
+  "violet": [
+   "#f4f3f8",
+   "#dedaf6",
+   "#b6aeef",
+   "#8c80e3",
+   "#6250d6",
+   "#4637a8",
+   "#2b2170"
+  ],
+  "pinkgreen": [
+   "#0d6b12",
+   "#3c9e3c",
+   "#a9d8a3",
+   "#f0efec",
+   "#f2b6cd",
+   "#d55181",
+   "#8f2d56"
+  ]
+ },
+ "periods": {
+  "2019": "2019",
+  "2022_pre": "2022, before 24 Feb",
+  "2022_war": "2022, from 24 Feb"
+ },
+ "period_colors": {
+  "2019": "year2019",
+  "2022_pre": "pink_soft",
+  "2022_war": "blue"
+ },
+ "events_2019": [
+  [
+   "2019-03-31",
+   "Ukrainian presidential election, round 1"
+  ],
+  [
+   "2019-04-21",
+   "Zelensky wins the run-off"
+  ],
+  [
+   "2019-07-25",
+   "Trump–Zelensky phone call"
+  ],
+  [
+   "2019-09-07",
+   "Ukraine–Russia prisoner swap"
+  ],
+  [
+   "2019-09-24",
+   "US impeachment inquiry opens"
+  ],
+  [
+   "2019-11-13",
+   "Public impeachment hearings begin"
+  ],
+  [
+   "2019-12-09",
+   "Normandy Four summit in Paris"
+  ],
+  [
+   "2019-12-18",
+   "House impeaches Trump"
+  ]
+ ],
+ "events_2022": [
+  [
+   "2022-02-21",
+   "Russia recognises the 'DPR' and 'LPR'"
+  ],
+  [
+   "2022-02-24",
+   "Full-scale invasion begins"
+  ],
+  [
+   "2022-03-16",
+   "Mariupol drama theatre bombed"
+  ],
+  [
+   "2022-04-03",
+   "Bucha killings revealed"
+  ],
+  [
+   "2022-04-14",
+   "Cruiser Moskva sunk"
+  ],
+  [
+   "2022-05-18",
+   "Finland and Sweden apply to NATO"
+  ],
+  [
+   "2022-06-23",
+   "EU candidate status; first HIMARS arrive"
+  ],
+  [
+   "2022-07-22",
+   "Black Sea grain deal"
+  ],
+  [
+   "2022-09-06",
+   "Kharkiv counteroffensive"
+  ],
+  [
+   "2022-09-21",
+   "Russia announces mobilisation"
+  ],
+  [
+   "2022-09-30",
+   "Russia annexes four regions"
+  ],
+  [
+   "2022-10-10",
+   "Mass missile strikes on the power grid"
+  ],
+  [
+   "2022-11-11",
+   "Kherson liberated"
+  ],
+  [
+   "2022-11-15",
+   "Missile lands in Przewodów, Poland"
+  ],
+  [
+   "2022-12-21",
+   "Zelensky visits Washington"
+  ]
+ ],
+ "country_events": {
+  "USA": [
+   [
+    "2022-05-21",
+    "$40bn aid bill"
+   ]
+  ],
+  "Germany": [
+   [
+    "2022-02-27",
+    "'Zeitenwende'"
+   ],
+   [
+    "2022-09-26",
+    "Nord Stream"
+   ]
+  ],
+  "Poland": [
+   [
+    "2022-11-15",
+    "Przewodów missile"
+   ]
+  ],
+  "UK": [
+   [
+    "2022-04-09",
+    "Johnson in Kyiv"
+   ]
+  ],
+  "France": [
+   [
+    "2022-06-04",
+    "'Don't humiliate Russia'"
+   ]
+  ],
+  "Turkey": [
+   [
+    "2022-07-22",
+    "Grain deal"
+   ]
+  ],
+  "Hungary": [
+   [
+    "2022-04-03",
+    "Orbán re-elected"
+   ]
+  ],
+  "China": [
+   [
+    "2022-08-02",
+    "Pelosi in Taiwan"
+   ]
+  ],
+  "Belarus": [
+   [
+    "2022-02-24",
+    "Invasion from Belarus"
+   ]
+  ],
+  "Finland": [
+   [
+    "2022-05-18",
+    "NATO bid"
+   ]
+  ],
+  "Sweden": [
+   [
+    "2022-05-18",
+    "NATO bid"
+   ]
+  ],
+  "Iran": [
+   [
+    "2022-10-17",
+    "Shahed strikes on Kyiv"
+   ]
+  ],
+  "Lithuania": [
+   [
+    "2022-06-18",
+    "Kaliningrad transit ban"
+   ]
+  ],
+  "Moldova": [
+   [
+    "2022-06-23",
+    "EU candidate status"
+   ]
+  ],
+  "India": [
+   [
+    "2022-09-16",
+    "Modi: 'not an era of war'"
+   ]
+  ],
+  "Canada": [
+   [
+    "2022-05-08",
+    "Trudeau in Irpin"
+   ]
+  ]
+ },
+ "support_events": {
+  "military": [
+   [
+    "2022-04-26",
+    "Ramstein"
+   ]
+  ],
+  "financial": [
+   [
+    "2022-05-21",
+    "$40bn package"
+   ]
+  ],
+  "humanitarian": [
+   [
+    "2022-03-16",
+    "Mariupol theatre"
+   ]
+  ],
+  "refugees": [
+   [
+    "2022-03-04",
+    "EU protection"
+   ]
+  ],
+  "sanctions": [
+   [
+    "2022-02-26",
+    "SWIFT ban"
+   ]
+  ],
+  "energy": [
+   [
+    "2022-09-26",
+    "Nord Stream"
+   ]
+  ],
+  "diplomatic": [
+   [
+    "2022-03-29",
+    "Istanbul talks"
+   ]
+  ],
+  "membership": [
+   [
+    "2022-05-18",
+    "Finland/Sweden bid"
+   ]
+  ]
+ },
+ "theme_events": {
+  "nuclear": [
+   [
+    "2022-02-27",
+    "Forces on alert"
+   ],
+   [
+    "2022-09-21",
+    "'Not a bluff'"
+   ]
+  ],
+  "negotiations": [
+   [
+    "2022-03-29",
+    "Istanbul talks"
+   ]
+  ],
+  "war_crimes": [
+   [
+    "2022-04-03",
+    "Bucha"
+   ]
+  ],
+  "mobilisation": [
+   [
+    "2022-09-21",
+    "Mobilisation decree"
+   ]
+  ],
+  "nazi": [
+   [
+    "2022-02-24",
+    "'Denazification'"
+   ]
+  ],
+  "grain": [
+   [
+    "2022-07-22",
+    "Grain deal"
+   ]
+  ]
+ },
+ "support_columns": {
+  "military": "aid_military",
+  "financial": "aid_financial",
+  "humanitarian": "aid_humanitarian",
+  "refugees": "refugees",
+  "sanctions": "sanctions",
+  "energy": "energy",
+  "diplomatic": "diplomatic",
+  "membership": "membership"
+ },
+ "support_labels": {
+  "military": "Military aid",
+  "financial": "Financial aid",
+  "humanitarian": "Humanitarian aid",
+  "refugees": "Refugees",
+  "sanctions": "Sanctions",
+  "energy": "Energy (gas, oil)",
+  "diplomatic": "Diplomatic support",
+  "membership": "NATO / EU membership"
+ },
+ "topic_source_labels": {
+  "text_ukraine": "Text names Ukraine",
+  "text_russia": "Text names Russia + aggression term",
+  "thread": "Comment in an on-topic thread",
+  "subreddit": "War-dedicated subreddit"
+ },
+ "topic_source_colors": {
+  "text_ukraine": "blue",
+  "text_russia": "pink",
+  "thread": "yellow",
+  "subreddit": "aqua"
+ },
+ "leaders": {
+  "zelensky": [
+   "Zelensky",
+   "blue"
+  ],
+  "putin": [
+   "Putin",
+   "pink"
+  ],
+  "biden": [
+   "Biden",
+   "green"
+  ],
+  "trump": [
+   "Trump",
+   "yellow"
+  ]
+ },
+ "themes": {
+  "nuclear": "Nuclear threat",
+  "negotiations": "Negotiations / ceasefire",
+  "war_crimes": "War crimes / genocide",
+  "mobilisation": "Mobilisation",
+  "nazi": "'Nazi' rhetoric",
+  "grain": "Grain / food crisis"
+ },
+ "weapons": {
+  "javelin": "Javelin",
+  "nlaw": "NLAW",
+  "stinger": "Stinger",
+  "bayraktar": "Bayraktar TB2",
+  "howitzers": "Howitzers (M777, PzH 2000, Caesar)",
+  "himars": "HIMARS",
+  "shahed": "Shahed / Iranian drones",
+  "patriot": "Patriot",
+  "tanks": "Western tanks",
+  "jets": "Fighter jets (F-16, MiG-29)"
+ },
+ "keywords_note": "stems = substrings that must occur (fast pre-filter); regex = exact match on lower-case text",
+ "keywords": {
+  "putin": {
+   "stems": [
+    "putin"
+   ],
+   "regex": "\\bputin"
+  },
+  "zelensky": {
+   "stems": [
+    "zelensk"
+   ],
+   "regex": "\\bzelensk"
+  },
+  "biden": {
+   "stems": [
+    "biden"
+   ],
+   "regex": "\\bbiden"
+  },
+  "trump": {
+   "stems": [
+    "trump"
+   ],
+   "regex": "\\btrump"
+  },
+  "nuclear": {
+   "stems": [
+    "nuclear",
+    "nuke",
+    "nuking"
+   ],
+   "regex": "\\bnuclear\\b|\\bnukes?\\b|\\bnuking\\b"
+  },
+  "negotiations": {
+   "stems": [
+    "negotiat",
+    "peace",
+    "cease"
+   ],
+   "regex": "\\bnegotiat|\\bpeace talks?\\b|\\bpeace deal|\\bpeace treaty|\\bcease-?fire"
+  },
+  "war_crimes": {
+   "stems": [
+    "war crim",
+    "genocid",
+    "atrocit",
+    "massacre"
+   ],
+   "regex": "\\bwar crimes?\\b|\\bwar criminals?\\b|\\bgenocid|\\batrocit|\\bmassacre"
+  },
+  "mobilisation": {
+   "stems": [
+    "mobili"
+   ],
+   "regex": "\\bmobili[sz]"
+  },
+  "nazi": {
+   "stems": [
+    "nazi"
+   ],
+   "regex": "\\bnazis?\\b|\\bnazism\\b|\\bdenazif|\\bneo-?nazi"
+  },
+  "grain": {
+   "stems": [
+    "grain",
+    "wheat",
+    "food crisis",
+    "famine"
+   ],
+   "regex": "\\bgrain\\b|\\bwheat\\b|\\bfood crisis|\\bfamine\\b"
+  },
+  "javelin": {
+   "stems": [
+    "javelin"
+   ],
+   "regex": "\\bjavelins?\\b"
+  },
+  "nlaw": {
+   "stems": [
+    "nlaw"
+   ],
+   "regex": "\\bnlaws?\\b"
+  },
+  "stinger": {
+   "stems": [
+    "stinger"
+   ],
+   "regex": "\\bstingers?\\b"
+  },
+  "bayraktar": {
+   "stems": [
+    "bayraktar",
+    "tb2",
+    "tb-2"
+   ],
+   "regex": "\\bbayraktars?\\b|\\btb-?2s?\\b"
+  },
+  "howitzers": {
+   "stems": [
+    "m777",
+    "howitzer",
+    "pzh"
+   ],
+   "regex": "\\bm777s?\\b|\\bhowitzers?\\b|\\bpzh ?2000|\\bcaesar howitzers?\\b"
+  },
+  "himars": {
+   "stems": [
+    "himars",
+    "m142",
+    "gmlrs"
+   ],
+   "regex": "\\bhimars\\b|\\bm142\\b|\\bgmlrs\\b"
+  },
+  "shahed": {
+   "stems": [
+    "shahed",
+    "geran",
+    "kamikaze drone",
+    "iranian drone"
+   ],
+   "regex": "\\bshaheds?\\b|\\bgeran-?2\\b|\\bkamikaze drones?\\b|\\biranian drones?\\b"
+  },
+  "patriot": {
+   "stems": [
+    "patriot"
+   ],
+   "regex": "\\bpatriot (?:missile|system|batter|air defen|launcher)|\\bpatriots? (?:to|for) ukraine"
+  },
+  "tanks": {
+   "stems": [
+    "leopard",
+    "abrams",
+    "challenger",
+    "western tank"
+   ],
+   "regex": "\\bleopard ?2s?\\b|\\bleopards\\b|\\babrams\\b|\\bchallenger ?2s?\\b|\\bwestern tanks\\b"
+  },
+  "jets": {
+   "stems": [
+    "f16",
+    "f-16",
+    "fighter jet",
+    "mig29",
+    "mig-29"
+   ],
+   "regex": "\\bf-?16s?\\b|\\bfighter jets?\\b|\\bmig-?29s?\\b"
+  }
+ },
+ "organisations": [
+  "NATO",
+  "EU",
+  "UN",
+  "Baltics"
+ ],
+ "entity_iso3": {
+  "USA": "USA",
+  "UK": "GBR",
+  "Poland": "POL",
+  "Germany": "DEU",
+  "France": "FRA",
+  "Hungary": "HUN",
+  "Turkey": "TUR",
+  "Canada": "CAN",
+  "China": "CHN",
+  "Czechia": "CZE",
+  "Slovakia": "SVK",
+  "Romania": "ROU",
+  "Lithuania": "LTU",
+  "Latvia": "LVA",
+  "Estonia": "EST",
+  "Italy": "ITA",
+  "Netherlands": "NLD",
+  "Sweden": "SWE",
+  "Finland": "FIN",
+  "Norway": "NOR",
+  "Denmark": "DNK",
+  "Spain": "ESP",
+  "Belgium": "BEL",
+  "Austria": "AUT",
+  "Switzerland": "CHE",
+  "Greece": "GRC",
+  "Bulgaria": "BGR",
+  "Portugal": "PRT",
+  "Serbia": "SRB",
+  "Moldova": "MDA",
+  "Belarus": "BLR",
+  "Iran": "IRN",
+  "Israel": "ISR",
+  "India": "IND",
+  "Japan": "JPN",
+  "South Korea": "KOR",
+  "South_Korea": "KOR",
+  "North Korea": "PRK",
+  "North_Korea": "PRK",
+  "Australia": "AUS",
+  "Ukraine": "UKR",
+  "Russia": "RUS"
+ },
+ "europe_map": {
+  "lon0": 15.0,
+  "lat0": 52.0,
+  "extent": [
+   -11.5,
+   47.0,
+   34.0,
+   70.5
+  ]
+ },
+ "stopwords": "a about above after again against all also am an and any are aren't as at be because been before being below between both but by can can't cannot could couldn't did didn't do does doesn't doing don't down during each few for from further get got had hadn't has hasn't have haven't having he he'd he'll he's her here here's hers herself him himself his how how's i i'd i'll i'm i've if in into is isn't it it's its itself just let's like me more most mustn't my myself no nor not now of off on once one only or other ought our ours ourselves out over own really same shan't she she'd she'll she's should shouldn't so some such than that that's the their theirs them themselves then there there's these they they'd they'll they're they've this those through to too under until up us very was wasn't we we'd we'll we're we've were weren't what what's when when's where where's which while who who's whom why why's will with won't would wouldn't you you'd you'll you're you've your yours yourself yourselves also even still much many well think know going want make way say said says see thing things lot yes yeah yep sure im dont doesnt isnt thats youre theyre didnt cant wont ive id ill gt amp http https www com deleted removed edit people would could should might must may every something anything nothing someone anyone everyone back go goes went gonna gotta oh ok okay lol",
+ "subreddit_colors": [
+  "blue",
+  "yellow",
+  "aqua",
+  "violet",
+  "magenta"
+ ]
+}
