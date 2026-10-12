@@ -19,3 +19,16 @@ __pycache__/
 *.pyc
 .venv/
 .idea/
+
+
+# великі згенеровані дані
+Data_parsing/data/*.csv
+Data_parsing/data/*.pkl
+Data_parsing/data/reactions/pairs_all.csv.gz
+Data_parsing/data/reactions/reaction_pairs.csv
+Data_parsing/data/reactions/reactions_all.csv
+Data_parsing/data/reactions/reactions_ft.csv
+
+# службові папки Python і Jupyter
+__pycache__/
+.ipynb_checkpoints/
